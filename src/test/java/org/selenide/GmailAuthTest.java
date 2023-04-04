@@ -20,7 +20,7 @@ public class GmailAuthTest {
         $("#identifierId").val("a.madiko14@gmail.com");
         $("div[id='identifierNext'] button").click();
 
-        $("input[type='password']").val("esbzlwqogqwkqyiv");
+        $("input[type='password']").val("sbzwAsd2ogqkqiv");
         $("div[id='passwordNext'] button").click();
 
         $("div[class='gb_2a']").shouldHave(text("Gmail"));
